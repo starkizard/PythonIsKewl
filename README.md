@@ -16,8 +16,8 @@ So, Here we go,
 <!-- Generated using "markdown-toc -i README.md --maxdepth 3"-->
 <!-- toc -->
 
-- [▶ Self Replicating Python Code(Quines)](#quines)
-- [▶ Quine generator (Introns)](#introns)
+- [▶ Self Replicating Python Code(Quines)](#-quines)
+- [▶ Quine generator (Introns)](#-introns)
 
 <!-- tocstop -->
 
