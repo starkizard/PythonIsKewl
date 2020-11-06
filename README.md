@@ -108,5 +108,5 @@ What if, you supplied the original intron into the intron itself?? Why don't you
 
 What Language is this coded in? Python? C? C++? All three in fact. How?
 
-This is some neat tricks taking advantage of #if and #endif directives in C/C++ and they fact # is used to start a comment in Python. A Python interpreter will ignore all code except the pyython code and a C/C++ compiler will ignore all code except the C/C++ code. Kewl! isn't it? 
+This is exploitation of some neat tricks taking advantage of #if and #endif directives in C/C++ and they fact # is used to start a comment in Python. A Python interpreter will ignore all code except the pyython code and a C/C++ compiler will ignore all code except the C/C++ code. Kewl! isn't it? 
 I have also made a tool that you can use to generate your own Python-C/C++ Polyglots very quickly. Use [this](https://github.com/starkizard/Python-Cpp-Polyglot)
