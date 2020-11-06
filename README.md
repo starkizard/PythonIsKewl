@@ -18,6 +18,7 @@ So, Here we go,
 
 - [▶ Self Replicating Python Code(Quines)](#-quines)
 - [▶ Quine generator (Introns)](#-introns)
+- [▶ Python- C/C++ Polyglot](#-polyglots)
 
 <!-- tocstop -->
 
@@ -84,3 +85,28 @@ The code mutated again!
 
 What if, you supplied the original intron into the intron itself?? Why don't you [Try it Yourself?](https://tio.run/##K6gsycjPM/7/v8RWXd262Fa9xDYzr6C0REMzv0ihxLqgKDOvRCNNqcS2uii1oEijRLMWqAjCLgayUytSk4EM5eqSWiVNdTj3/38uAA "Python 3 – Try It Online")
 
+> ### ▶ Polyglots
+> ```py
+> #if 0
+> print("Demoknight tf2, but in Python3")
+> #endif
+> #if 0
+> """ "
+> #endif
+> #include<bits/stdc++.h>
+> using namespace std;
+> int main(){
+>     cout << "Demoknight tf2, but in C++\n";
+>     return 0;
+> }
+> #if 0
+> " """
+> #endif
+> ```
+
+#### 💡 Explanation:
+
+What Language is this coded in? Python? C? C++? All three in fact. How?
+
+This is some neat tricks taking advantage of #if and #endif directives in C/C++ and they fact # is used to start a comment in Python. A Python interpreter will ignore all code except the pyython code and a C/C++ compiler will ignore all code except the C/C++ code. Kewl! isn't it? 
+I have also made a tool that you can use to generate your own Python-C/C++ Polyglots very quickly. Use [this](https://github.com/starkizard/Python-Cpp-Polyglot)
